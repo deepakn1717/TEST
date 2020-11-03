@@ -1,5 +1,3 @@
-const client = require('../client');
-
 function getClinetData(data, version) {
     const updatedData = data.replace('0000', ' ').replace('000', ' ');
     const dataList = updatedData.split(' ');
